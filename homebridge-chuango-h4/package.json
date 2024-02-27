@@ -1,0 +1,19 @@
+{
+  "name": "homeassistant-chuango-h4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "scripts": {
+    "start": "if-env NODE_ENV=local && npm run start:dev || npm run start:prod",
+    "start:prod": "node ./dist/index.js",
+    "start:dev": "tsc-watch --onSuccess \"npm run start:prod\" ",
+    "build": "./node_modules/typescript/bin/tsc -p ./tsconfig.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chuango-h4-client": "^1.0.0",
+    "mqtt": "^5.3.6",
+    "typescript": "^5.3.3"
+  }
+}

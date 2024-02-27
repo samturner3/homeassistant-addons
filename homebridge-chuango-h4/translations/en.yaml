@@ -1,0 +1,10 @@
+configuration:
+  guid:
+    name: guid
+    description: "The GUID can be generated using any valid GUID generator such as the one here"
+  username:
+    name: Username
+    description: "To use this plugin you will need your app username and password along with a GUID."
+  password:
+    name: Password
+    description: "To use this plugin you will need your app username and password along with a GUID."

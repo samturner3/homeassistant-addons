@@ -1,0 +1,20 @@
+{
+  "name": "chuango-h4 addon",
+  "description": "chuango-h4 addon for home assistant",
+  "version": "1.0.0",
+  "slug": "chuango-h4",
+  "init": false,
+  "options": {
+    "username": null,
+    "password": null,
+    "guid": null
+  },
+  "schema": {
+    "guid": "str",
+    "username": "str",
+    "password": "password"
+  },
+  "services": ["mqtt:need"],
+  "panel_icon": "mdi:alarm-light",
+  "arch": ["amd64", "armv7", "armhf", "i386", "aarch64"]
+}
